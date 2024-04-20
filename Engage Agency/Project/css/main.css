@@ -1,0 +1,483 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* section1 */
+.home{
+    width: 100%;
+    margin: 0px auto;
+    height: 800px;
+    background-image: url(../img/full-8-1.jpeg);
+    background-position:top;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.home .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 118, 210, 0.7);
+    position: absolute;
+    inset: 0;
+    opacity: 0.9;
+    z-index: -1;
+}
+.home .items{
+    width: 80%;
+    margin: auto;
+}
+.home .items p{
+    width:65% ;
+    margin: 265px auto;
+    color: rgba(255,255,255, .92); 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px; 
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 1.86em;
+}
+.home .items .texthome .p2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.86em;  
+    font-size: 22px;
+}
+.home .items  h1{
+    font-size: 64px;
+    color: #fff;
+    margin-bottom: 18px;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.home .items .btn{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 1.86em;
+    position: relative;
+    z-index: 2;
+}
+.home .items .btn button{
+    border: 2px solid transparent;
+    padding: 10px 22px;
+    background-color: rgba(255,255,255, 2);
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+    line-height: 1.3rem;
+    margin-bottom: 12px;
+    color: #121212;
+    cursor: pointer;
+}
+.home .items .btn .overlay2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: -2; 
+    transition: all 0.5s;
+}
+.overlay2:hover {
+    background-color: rgba(2, 15, 29, 0.1);
+    /* opacity: .1; */
+}
+/* section2 */
+.container .text{
+    text-align: center;
+    padding: 75px 54.5px 40px 54.5px;    
+}
+.container .text h2{
+    font-size: 32px;
+    color: rgb(48, 48, 48);
+    line-height: 1.38em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+
+}
+.container .text p{
+    width: 72%;
+    margin: auto;
+    font-size: 18.15px;
+    color: #606060;
+    line-height: 1.86em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+/* section3 */
+.parent{
+   width:90%;
+    margin: auto;
+}
+.parent .child{
+    width: 33.3333%;
+    float: left;
+    margin-bottom: 35px;
+}
+.parent .child .item{
+    margin-bottom: 70px;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    width: 100%;
+}
+.parent .child .item h5{
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 500;    
+}
+.parent .child .item span{
+    margin-right: 15px;
+    width: 40px;
+    font-size: 28px;
+    margin-top: 5px;
+    color: rgb(104, 104, 104);
+    line-height: 1.38em;
+}
+.parent .child .item p{
+    width: 85%;
+    margin: auto;
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+    line-height: 1.86em;
+    margin-left: 45px;
+    font-weight: 400;
+}
+/* section4 */
+/* par1 */
+.grand2{
+    width: 80%;
+    margin: auto;
+}
+.grand2 .parent2 .child {
+    text-align: center;
+    margin-top: 10px;
+}
+.grand2 .parent2  .child2{
+    margin-bottom: 60px;
+}
+.grand2 .parent2 .child h3{
+    font-size: 30px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    font-family: "Open Sans", arial;
+}
+.grand2 .parent2 .child p{
+    font-size: 17px;
+    color: #888;
+    margin: 17px auto 0px;
+    line-height: 1.86em;
+    font-weight: 400;
+    font-family: "Open Sans", arial;
+}
+/* part2 */
+.grand2 .parent2 .child ul{
+    color: rgb(148, 148, 148);
+    list-style-type: none;
+    font-size: 15px;
+    font-family: "Open Sans", arial;
+    margin-left: 247px;
+}
+.grand2 .parent2 .child li{
+    float: left;
+    padding: 0px 0px 4px 0px;
+    margin: 0px 13px;
+    transition: all 0.3s;
+    margin-bottom: 45px;
+
+}
+.grand2 .parent2 .child .li{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    color: #2D2C2C;   
+    font-weight: 400;
+    font-family: "Open Sans", arial;
+    cursor: default;
+}
+li:hover  {
+    cursor: pointer;
+    color: #2D2C2C;
+}
+/* section5 */
+.grand3{
+    width: 91%;
+    margin: auto;
+}
+.items .border{
+    float: left;
+    width: 33.333%;    
+    padding: 10px;  
+}
+.items .item{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #efefef;
+}
+.item .text{
+    text-align: center;
+    padding: 22px;
+}
+.item .imgs{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.item .imgs .overlay3{
+    width: 100%;
+    height: 100%;    
+    position: absolute; 
+    background-color: #00000073;        
+    opacity: 0;
+    inset: 0;
+    transition: all 1s;
+    z-index: 1;
+}
+.imgs:hover .overlay3  {
+    opacity: 1;  
+}
+.item .imgs .overlay3 .icons{
+    text-align: center;
+    position: relative; 
+    top: 50%;  
+    transform: translateY(20px);
+    transition: all 1s; 
+}
+.imgs:hover .overlay3 .icons{
+    transform: translateY(0);
+}
+.overlay3 .icons i{  
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;    
+    background-color: rgba(255,255,255,0.8);
+    margin: 0px 10px;
+    border-radius: 100%;
+    line-height: 42px;
+    color: #000000a1;
+}
+.imgs img{
+    transition: all 0.5s;
+}
+.imgs:hover img{
+    transform: scale(1.1);
+}
+.item .text{
+    font-size: 15px;
+    font-family: "Open Sans", arial;
+}
+.item .text h3{
+    color:#333 ;
+    font-size: 19px;
+    font-weight: 400;    
+    line-height: 1.38em;    
+    cursor: pointer; 
+
+}
+span:hover {
+    color: rgba(0, 0, 255, 0.815);
+}
+.item .text p{
+    color: #888;
+    line-height: 1.86em;
+}
+/* section6 */
+.grand4{
+    width: 90%;
+    margin: auto;  
+    overflow: hidden;
+}
+.parent4{
+    text-align: center;   
+}
+.grand4 .parent4 .child{
+    margin-top: 10px;
+    margin-bottom: 55px;    
+    font-family: "Open Sans", arial;
+}
+.grand4 .parent4 .margin{
+    margin-top: 80px;
+}
+.grand4 .parent4 .child h3{
+    font-size: 30px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+.grand4 .parent4 .child p {
+    font-size: 17px;
+    color: #888;
+    line-height: 1.86em;
+    font-weight: 400;
+    margin: 17px auto 0;
+}
+.grand4 .parent4 .child2 .p {
+    float: left;
+    width: 33.3333%;
+    text-align: start;
+    padding-right: 30px;
+}
+.grand4 .parent4 .child2 .p p{
+    width: 100%;
+    background: #f8f8f8;
+    padding: 22px 26px;
+    border-radius: 40px 40px 40px 0px;
+    font-size: 16px;
+    line-height: 1.86em;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    color: #686868;
+}
+.grand4 .parent4 .child2 .h{
+    padding-left: 26px;
+    margin-top: 20px;
+
+}
+.grand4 .parent4 .child2 .h h4{
+    color: #686868;
+    font-weight: 400;    
+    font-family: 'Open Sans',arial;    
+    line-height: 1.86em;
+}
+.grand4 .parent4 .child2 .h h5{
+    font-size: 15px;
+    font-family: 'Open Sans',arial;    
+    margin-top: 2px;
+    opacity: 0.7;
+    margin-bottom: 43px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: rgb(104, 104, 104);
+}
+/* section7 */
+.grand5{
+    width: 91%;
+    margin: auto;
+    overflow: hidden;
+}
+.grand5 .parent5{
+    text-align: center;
+}
+.grand5 .parent5 .child{
+    margin-top: 10px;
+    font-family: 'Open Sans',arial;       
+    margin-bottom: 50px;
+}
+.grand5 .parent5 .child h3{
+    font-size: 30px;
+    color: #303030;
+    line-height: 1.38em;
+    padding-top:35px ;
+    font-weight: 400;
+}
+.grand5 .parent5 .child p{
+    font-size: 17px;
+    color: #888;
+    line-height: 1.86em;
+    font-weight: 400;
+    margin: 17px auto 0;    
+}
+.grand5 .parent5 .child .border{
+    float: left;
+    width: 33.333%;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+.grand5 .parent5 .child .item{
+    width: 100%;
+    border: 1px solid #efefef ;
+}
+.grand5 .parent5 .child .item h5{
+    color:rgb(104, 104, 104);
+    font-size: 20px;
+    line-height: 1.38em;
+    font-weight: 500;
+    font-family: "Open Sans", arial;
+    text-align: start;
+    padding: 22px 22px 0px;
+    margin-bottom: 10.5px;
+}
+.grand5 .parent5 .child .item .p2{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: #aaa;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.3em;
+    font-family: 'Open Sans',arial;
+    text-align: start;
+    padding: 0px 22px;
+}
+.span:hover {
+    color: rgba(0, 0, 255, 0.815);
+}
+.grand5 .parent5 .child .item .p2 span{
+    cursor: pointer;
+    transition: all 0.s;
+}
+.grand5 .parent5 .child .item .text{
+    padding: 0px 22px;
+    text-align: start;
+    font-family: 'Open Sans',arial;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.grand5 .parent5 .child .item .text p{
+    margin-bottom: 15px;
+    line-height: 1.96em;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+}
+.grand5 .parent5 .child .item .text p span{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+.grand5 .parent5 .child .item .text p i{
+    margin-left: 4px;
+}
+.lay:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
